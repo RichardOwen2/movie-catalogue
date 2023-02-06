@@ -1,0 +1,9 @@
+
+
+<<< Recorded commands on Sun Feb 05 2023 01:56:35 GMT+0800 (Central Indonesia Time)
+I.seeElement('.movie__title a');
+I.click(locate('.movie__title a').first());
+I.seeElement('#likeButton');
+I.click('#likeButton');
+I.amOnPage('/#/like');
+I.seeElement('.movie-item')
